@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remind De — Spoken reminders, calendar planning & mindful timers</title>
+<meta name="description" content="Remind De is an offline-ready reminder and productivity app with spoken voice alerts, flexible repeat schedules, calendar planning, and a built-in meditation timer.">
+
+<!-- Fonts: Poppins for display, Inter for body -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="wordmark">Remind De</a>
+    <a href="#" class="btn btn-ghost btn-small" id="header-install" data-install-link>Install</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero wrap">
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="ping-rings">
+        <span class="ring ring-1"></span>
+        <span class="ring ring-2"></span>
+        <span class="ring ring-3"></span>
+      </div>
+      <div class="icon-frame">
+        <!--
+          ICON GOES HERE
+          Replace assets/icon.png with your app icon (square, ideally 512x512).
+          If the file is missing, a placeholder glyph is shown automatically.
+        -->
+        <img src="assets/icon.png" alt="Remind De app icon" class="app-icon" id="app-icon">
+        <div class="icon-fallback" id="icon-fallback">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M12 3a5 5 0 0 0-5 5v3.5c0 .8-.3 1.6-.9 2.2L5 15h14l-1.1-1.3a3.2 3.2 0 0 1-.9-2.2V8a5 5 0 0 0-5-5Z"/>
+            <path d="M9.5 18a2.5 2.5 0 0 0 5 0"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <p class="store-indicator">
+        <svg viewBox="0 0 24 24" class="play-glyph" aria-hidden="true"><path d="M4 3.6c0-.9 1-1.4 1.7-.9l14.2 8.4c.7.4.7 1.4 0 1.8L5.7 21.3c-.7.5-1.7 0-1.7-.9V3.6Z" fill="currentColor"/></svg>
+        Available on Play Store
+      </p>
+
+      <h1>Never miss what<br>actually matters.</h1>
+
+      <p class="hero-sub">
+        Remind De pairs spoken reminders with flexible repeat schedules, calendar
+        planning, and a built-in meditation timer — so your day stays organized
+        without the noise. Fully offline-ready.
+      </p>
+
+      <div class="hero-actions">
+        <!--
+          INSTALL BUTTON LINK
+          Replace the href below (and the one in the header link above)
+          with your real Google Play Store URL, e.g.
+          https://play.google.com/store/apps/details?id=com.yourcompany.reminde
+        -->
+        <a href="#" class="btn btn-primary" id="install-btn" data-install-link>
+          Install Remind De
+        </a>
+        <span class="hero-meta">Free · Offline-ready · Material&nbsp;3</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about wrap" id="about">
+    <div class="about-grid">
+      <h2>About the app</h2>
+      <div class="about-copy">
+        <p>
+          Remind De is an intuitive, offline-ready reminder and productivity app
+          designed to ensure you never miss the moments, tasks, and routines
+          that matter most.
+        </p>
+        <p>
+          It combines precise scheduling with spoken audio alerts, flexible
+          repeat rules, calendar planning, and built-in meditation timers to
+          keep your daily life organized and focused.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="features wrap" id="features">
+    <h2>What's inside</h2>
+
+    <div class="feature-list">
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3Z"/><path d="M6 11v1a6 6 0 0 0 12 0v-1M12 18v3"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Spoken voice &amp; text reminders</h3>
+          <p>Choose realistic AI voice playback, local speech synthesis, or traditional text reminders with dedicated notification chimes. Remind De speaks your reminder title aloud so you can stay informed hands-free.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3a5 5 0 0 0-5 5v3.5c0 .8-.3 1.6-.9 2.2L5 15h14l-1.1-1.3a3.2 3.2 0 0 1-.9-2.2V8a5 5 0 0 0-5-5Z"/><path d="M9.5 18a2.5 2.5 0 0 0 5 0"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Reliable exact alarms &amp; rich notifications</h3>
+          <p>Set accurate time-sensitive alarms that wake your device reliably. Manage incoming alerts from the notification tray with quick actions: close, snooze for 5 or 10 minutes, or delete.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 2v4M7 2v4M3 9h18"/><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 20l2-2-2-2M13 16h3"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Flexible repeat schedules</h3>
+          <p>Customize reminders to fit your routine with one-time, daily, weekly, monthly, or yearly recurrence. Conflict detection prevents overlapping active tasks at the exact same time.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/><circle cx="8.5" cy="14" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="14" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Interactive calendar view</h3>
+          <p>Plan ahead with a clean monthly calendar layout. Browse specific dates, jump to today's schedule, see indicator badges for active tasks, and create date-specific reminders instantly.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Mindful meditation timer</h3>
+          <p>Take a mindful break before important tasks. Select durations from 2 to 30 minutes with circular progress tracking, start and finish audio cues, and pause or reset controls.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 8v4l2.5 2.5"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Comprehensive history log</h3>
+          <p>Track your productivity with organized status filters. View and manage all your tasks categorized by Active, Completed, Missed, and Snoozed.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h3l2-6 4 12 2-8 2 4h5"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Saved voice library</h3>
+          <p>Access and preview saved audio clips generated for your reminders. Replay samples or manage local voice storage at any time.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17a4 4 0 0 1 0-8 5 5 0 0 1 9.6-1.5A4 4 0 0 1 17 17H7Z"/><path d="M12 11v6M9.5 14.5 12 12l2.5 2.5"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Safe backup &amp; restore</h3>
+          <p>Keep your data protected with local file exports or direct backup to Google Drive. Restore your reminders, voice notes, and settings whenever switching devices.</p>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h9M4 12h16M4 18h9"/><circle cx="16" cy="6" r="2" fill="currentColor" stroke="none"/><circle cx="9" cy="18" r="2" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <div class="feature-copy">
+          <h3>Thoughtful customization</h3>
+          <p>Enjoy a modern Material 3 interface with full dark theme support, quick app launcher shortcuts, audio speed and volume adjustments, and fast in-app search.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta wrap">
+    <h2>Ready when you are.</h2>
+    <p>Set your first reminder in under a minute.</p>
+    <a href="#" class="btn btn-primary" data-install-link>Install Remind De</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Remind De</span>
+    <span class="footer-dim">Made for people who forget on purpose, not by accident.</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
