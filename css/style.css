@@ -384,7 +384,13 @@ svg { width: 100%; height: 100%; }
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 16px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   font-family: var(--font-display);
   font-weight: 600;
 }
@@ -394,6 +400,130 @@ svg { width: 100%; height: 100%; }
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.footer-links a:hover {
+  color: var(--mint);
+  border-color: var(--mint);
+}
+
+/* =========================================================
+   Legal pages (Privacy Policy, etc.)
+   ========================================================= */
+
+.legal {
+  padding: 72px 24px 100px;
+}
+
+.legal-header {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 40px;
+  margin-bottom: 48px;
+}
+
+.legal-header .store-indicator {
+  margin-bottom: 20px;
+}
+
+.legal-header h1 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  margin-bottom: 12px;
+}
+
+.legal-updated {
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.legal-body {
+  max-width: 74ch;
+}
+
+.legal-body h2 {
+  font-size: 1.3rem;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.legal-body section:first-of-type h2 {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.legal-body p {
+  color: var(--text-dim);
+  font-size: 1.02rem;
+  margin: 0 0 16px;
+}
+
+.legal-body ul {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.legal-body li {
+  position: relative;
+  color: var(--text-dim);
+  font-size: 1.02rem;
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+
+.legal-body li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--coral);
+}
+
+.legal-body li strong,
+.legal-body p strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.legal-body a {
+  color: var(--mint);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-contact {
+  margin-top: 48px;
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.legal-contact h2 {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
 }
 
 /* =========================================================
