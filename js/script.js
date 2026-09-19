@@ -7,7 +7,7 @@
       (header button, hero button, bottom CTA button).
    ========================================================= */
 
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=REPLACE_WITH_YOUR_PACKAGE_ID";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.vedyantrasoftlab.remindde";
 
 document.querySelectorAll("[data-install-link]").forEach((el) => {
   el.setAttribute("href", PLAY_STORE_URL);
